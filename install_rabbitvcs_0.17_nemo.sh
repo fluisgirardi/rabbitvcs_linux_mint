@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install git subversion nemo-python python-svn python-simplejson meld nemo nemo-python python-dbus python-dulwich python-git python-tk
+sudo apt install git subversion nemo-python python-svn python-simplejson meld nemo nemo-python python-dbus python-dulwich python-git python-tk gir1.2-gtkspell3-3.0
 cd /tmp
 git clone https://github.com/rabbitvcs/rabbitvcs.git
 cd rabbitvcs
