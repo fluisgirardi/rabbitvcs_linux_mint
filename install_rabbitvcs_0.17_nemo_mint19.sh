@@ -5,7 +5,7 @@ git clone https://github.com/rabbitvcs/rabbitvcs.git
 cd rabbitvcs
 sudo python setup.py install --install-layout=deb
 if [ ! -d /usr/share/nemo-python/extensions ]; then
-  sudo mdkir /usr/share/nemo-python/extensions;
+  sudo mkdir /usr/share/nemo-python/extensions;
 fi
 sudo cp clients/nemo/RabbitVCS.py /usr/share/nemo-python/extensions
 
