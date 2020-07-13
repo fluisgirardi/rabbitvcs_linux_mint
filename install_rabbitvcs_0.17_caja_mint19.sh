@@ -5,7 +5,7 @@ git clone https://github.com/rabbitvcs/rabbitvcs.git
 cd rabbitvcs
 sudo python setup.py install --install-layout=deb
 if [ ! -d /usr/share/caja-python/extensions ]; then
-  sudo mdkir /usr/share/caja-python/extensions;
+  sudo mkdir /usr/share/caja-python/extensions;
 fi
 sudo cp clients/caja/RabbitVCS.py /usr/share/caja-python/extensions
 
