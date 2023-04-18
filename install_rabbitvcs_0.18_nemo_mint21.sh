@@ -17,7 +17,7 @@ sudo cp rabbitvcs/util/configspec/configspec.ini /usr/share/rabbitvcs
 sudo cp clients/nemo/RabbitVCS.py /usr/share/nemo-python/extensions
 
 sudo cp -rf data/icons/hicolor /usr/share/icons/
-echo FOI
+
 nemo -q
 pgrep -f service.py | xargs kill
 nohup nemo > /dev/null &
